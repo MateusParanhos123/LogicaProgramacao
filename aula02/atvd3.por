@@ -3,18 +3,18 @@ programa {
 
   funcao inicio() {
     cadeia nome 
-    real peso 
+    real massa
     real altura
     real imc
 
     escreva("Nome: ")
     leia(nome)
-    escreva("Peso (kg): ")
-    leia(peso)
+    escreva("Massa (kg): ")
+    leia(massa)
     escreva("Altura (m): ")
     leia(altura)
 
-    imc = mat.arredondar(peso / (altura * altura), 2)
+    imc = mat.arredondar(massa / (altura * altura), 2)
 
     escreva(nome, ", seu IMC é ", imc)
   }
