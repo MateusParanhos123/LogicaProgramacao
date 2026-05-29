@@ -39,6 +39,10 @@ programa {
         senao se(condicao > 1 e condicao <= 20){
           valorArrecadado += 1200
         }
+        senao{
+          escreva("Horário indisponível.")
+          retorne
+        }
       }
 
       senao se(midia == "revista"){
